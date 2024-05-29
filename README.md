@@ -1,16 +1,25 @@
 # Desafio-Felipao-Calculadora-De-Ranks
 Desafio proposto da aula Calculando Partidas Rankeadas Modulo 03
-# Entrada
- A entrada vai receber duas informações: o nome do item a ser verificado e a quantidade desejada desse item.
 
-# Saída
-Imprima "Disponível" se a quantidade desejada do item estiver disponível no inventário e "Indisponível" caso contrário.
+### Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador,
+depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)
 
-#Exemplos
-A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+|Se vitórias for menor do que 10 = Ferro|
+-----------------------------------------
+|Se vitórias for entre 11 e 20 = Bronze|
+-----------------------------------------
+|Se vitórias for entre 21 e 50 = Prata|
+-----------------------------------------
+|Se vitórias for entre 51 e 80 = Ouro|
+-----------------------------------------
+|Se vitórias for entre 81 e 90 = Diamante|
+-----------------------------------------
+|Se vitórias for entre 91 e 100= Lendário|
+-----------------------------------------
+|Se vitórias for maior ou igual a 101 = Imortal|
+-----------------------------------------
 
-|Entrada|	Saída|
----------|-------
-|espada 1	| Disponível|
-|escudo 2	|Indisponível|
-|pergaminho |2	Disponível|
+## Saída
+
+Ao final deve se exibir uma mensagem:
+"O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
